@@ -1,6 +1,6 @@
 {
   "name": "img2webp-bin",
-  "version": "1.0.3.0",
+  "version": "1.0.3",
   "description": "img2webp wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
   "repository": "drslump/img2webp-bin",
@@ -32,7 +32,7 @@
     "minify",
     "optimize",
     "png",
-    "webp",
+    "webp"
   ],
   "dependencies": {
     "bin-build": "^3.0.0",
