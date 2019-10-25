@@ -14,21 +14,21 @@ const bin = require('..');
 test('rebuild the gif2webp binaries', async t => {
 	const tmp = tempy.directory();
 
-	await binBuild.url('https://github.com/webmproject/libwebp/archive/v0.6.0.zip', [
+	await binBuild.url('https://github.com/webmproject/libwebp/archive/v1.0.3.zip', [
 		`mkdir -p ${tmp}`,
-		`make -f makefile.unix examples/gif2webp && mv ./examples/gif2webp ${path.join(tmp, 'gif2webp')}`
+		`make -f makefile.unix examples/img2webp && mv ./examples/img2webp ${path.join(tmp, 'img2webp')}`
 	]);
 
-	t.true(fs.existsSync(path.join(tmp, 'gif2webp')));
+	t.true(fs.existsSync(path.join(tmp, 'img2webp')));
 });
 
 test('return path to binary and verify that it is working', async t => {
 	t.true(await binCheck(bin, ['-help']));
 });
 
-test('convert a GIF to WebP', async t => {
+test('convert a PNG to WebP', async t => {
 	const tmp = tempy.directory();
-	const src = path.join(__dirname, 'fixtures/test.gif');
+	const src = path.join(__dirname, 'fixtures/test.png');
 	const dest = path.join(tmp, 'test.webp');
 	const args = [
 		src,

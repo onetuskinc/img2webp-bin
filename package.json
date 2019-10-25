@@ -1,32 +1,16 @@
 {
-  "name": "gif2webp-bin",
-  "version": "2.0.0",
-  "description": "gif2webp wrapper that makes it seamlessly available as a local dependency",
+  "name": "img2webp-bin",
+  "version": "1.0.3.0",
+  "description": "img2webp wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/gif2webp-bin",
+  "repository": "drslump/img2webp-bin",
   "author": {
-    "name": "Shogo Sensui",
-    "email": "shogo.sensui@gmail.com",
-    "url": "github.com/1000ch"
+    "name": "Iván Montes",
+    "email": "drslump@pollinimini.net",
+    "url": "github.com/drslump"
   },
-  "maintainers": [
-    {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Kevin Mårtensson",
-      "email": "kevinmartensson@gmail.com",
-      "url": "github.com/kevva"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
-    }
-  ],
   "bin": {
-    "gif2webp": "cli.js"
+    "img2webp": "cli.js"
   },
   "engines": {
     "node": ">=6"
@@ -41,7 +25,7 @@
     "lib"
   ],
   "keywords": [
-    "imagemin",
+    "img2webp",
     "compress",
     "image",
     "img",
@@ -49,8 +33,6 @@
     "optimize",
     "png",
     "webp",
-    "gif",
-    "gif2webp"
   ],
   "dependencies": {
     "bin-build": "^3.0.0",
