@@ -1,4 +1,4 @@
-# img2webp-bin [![Build Status](https://travis-ci.org/drslump/img2webp-bin.svg?branch=master)](https://travis-ci.org/drslump/img2webp-bin)
+# img2webp-bin [![Build Status](https://travis-ci.org/onetuskinc/img2webp-bin.svg?branch=master)](https://travis-ci.org/onetuskinc/img2webp-bin)
 
 > [WebP](https://developers.google.com/speed/webp/) is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.
 

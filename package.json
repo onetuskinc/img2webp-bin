@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "img2webp wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "drslump/img2webp-bin",
+  "repository": "onetuskinc/img2webp-bin",
   "author": {
     "name": "Iván Montes",
     "email": "drslump@pollinimini.net",
